@@ -25,8 +25,8 @@ btn3.pack()
  
 frame = tk.Frame(root, width=300, height=250, bd=1, relief="sunken")
 frame.bind("<Button-1>", leftClick)
-frame.bind("<Button-2>", rightClick)
-frame.bind("<Button-3>", middleClick)
+frame.bind("<Button-2>", middleClick)
+frame.bind("<Button-3>", rightClick)
 frame.pack()
 
 if __name__ == '__main__':
