@@ -5,7 +5,7 @@ root = tk.Tk()
 
 def calculateSqRootFromUserInput(event):
     result = str(math.sqrt(float(input.get())))
-    output.delete(0,9999)
+    output.delete(0, tk.END)
     output.insert(0, result)
 
 tk.Label(root, text='Number to take square root:').pack()
