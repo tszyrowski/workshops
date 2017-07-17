@@ -8,7 +8,8 @@ import tkinter as tk
 
 root = tk.Tk()              # make a base for the app
 
-def myEntries():            # function to be called after tick
+def myEntries():  
+    print(chk)          # function to be called after tick
     print(entry1.get(), entry2.get())
 
 lbl1 = tk.Label(root, text='name')
@@ -25,6 +26,7 @@ entry2 = tk.Entry(root, show='*', bg='white')
 entry2.grid(row=1, column=1)
  
 chk = tk.Checkbutton(root, text="Keep me logged", command=myEntries)
+print(chk)
 chk.grid(columnspan=2)
 
 if __name__ == '__main__':
