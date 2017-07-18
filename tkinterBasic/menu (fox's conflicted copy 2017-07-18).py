@@ -22,10 +22,11 @@ editMenu.add_command(label="Make a bomb", command=menuClickHandler)
 toolBar = tk.Frame(root, bg="orange")
 insertButt = tk.Button(toolBar, text="imande", command=menuClickHandler)
 insertButt.pack(side="left", padx = 2, pady = 2)
-insertButt = tk.Button(toolBar, text="print", command=menuClickHandler)
-insertButt.pack(side="left", padx = 2, pady = 2)
+printButt = tk.Button(toolBar, text="print", command=menuClickHandler)
+printButt.pack(side="left", padx = 2, pady = 2)
 toolBar.pack(side="top", fill="x")
 
-
+status = tk.Label(root, text="Status holder", bd=1, relief="sunken", anchor="w")
+status.pack(side="bottom", fill="x")
 
 root.mainloop()
