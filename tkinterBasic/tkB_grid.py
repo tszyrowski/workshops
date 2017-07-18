@@ -5,10 +5,10 @@ Created on 16 Jul 2017
 '''
 import tkinter as tk
 
-colours = ['red','green','orange','white','yellow','blue']
+myColours = ['red','green','orange','white','yellow','blue']
 
 r = 0
-for c in colours:
+for c in myColours:
     tk.Label(text=c, relief='ridge',width=15).grid(row=r, column=0)
     tk.Entry(bg=c, relief='sunken',width=10).grid(row=r, column=1)
     r = r+1
