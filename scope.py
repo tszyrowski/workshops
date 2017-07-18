@@ -4,8 +4,7 @@ def myFunc(param):
     myVar = 1
     if 1:
         myVar = 2
-    print(myVar)
+        ifVar = 3
+    print(ifVar)
 
 myFunc(myVar)
-
-print(myVar)
