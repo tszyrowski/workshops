@@ -27,7 +27,7 @@ Geometry:
 : grid
 '''
 from tkinter import *
-from tkinter.ttk import *
+#from tkinter.ttk import *
 
 class WithoutTtk():
     def __init__(self, root):

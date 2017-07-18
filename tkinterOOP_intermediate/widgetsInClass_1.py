@@ -84,5 +84,5 @@ class tkButtons():
 
 if __name__ == '__main__':
     root = tk.Tk()
-    myClass = tkButtons(root)
+    myClass = tkButtons(root)  # this is different
     root.mainloop()

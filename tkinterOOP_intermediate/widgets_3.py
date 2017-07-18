@@ -288,5 +288,8 @@ if __name__ == '__main__':
 
     top10 = tk.Toplevel(root)
     Voltron(top10)
+    
+    top11 = tk.Toplevel(root)
+    Voltron(top11)
 
     root.mainloop()
