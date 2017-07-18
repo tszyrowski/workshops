@@ -4,7 +4,6 @@ Created on 16 Jul 2017
 @author: T
 '''
 import tkinter as tk
-import time
 
 root = tk.Tk()
 
