@@ -1,7 +1,8 @@
-meters = 5
-feet = meters * 3.3
-print(feet)
+def meters_to_feet(meters):
+    return meters * 3.3
 
-feet = 5
-meters = feet / 3.3
-print(meters)
+def feet_to_meters(feet):
+    return feet / 3.3
+
+print(meters_to_feet(5))
+print(feet_to_meters(5))
