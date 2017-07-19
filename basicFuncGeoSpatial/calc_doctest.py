@@ -14,12 +14,20 @@ def dec_to_deg_min_sec(deg_dec):
 
 def deg_min_sec_to_dec(deg,min,sec):
     '''
+    >>> deg_min_sec_to_dec(0, 0, 0)
+    0.0
+    >>> deg_min_sec_to_dec(90, 0, 0)
+    90.0
+    >>> deg_min_sec_to_dec(90, 60, 0)
+    91.0
+    >>> deg_min_sec_to_dec(90, 60, 60)
+    91.01666666666667
     >>> deg_min_sec_to_dec(50, 5, 4.27919999999915)
     50.084522
     '''
-    return deg + 100/min + 100/sec
+    return deg + min / 60 + sec / 3600
 
 if __name__ == "__main__":
 
     import doctest
-    doctest.testmod()
+    print(doctest.testmod())
