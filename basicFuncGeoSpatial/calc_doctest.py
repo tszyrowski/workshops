@@ -12,6 +12,13 @@ def dec_to_deg_min_sec(deg_dec):
     seconds = (minutes_dec - minutes) * 60
     return [degrees, minutes, seconds]
 
+def deg_min_sec_to_dec(deg,min,sec):
+    '''
+    >>> deg_min_sec_to_dec(50, 5, 4.27919999999915)
+    50.084522
+    '''
+    return deg + 100/min + 100/sec
+
 if __name__ == "__main__":
 
     import doctest
