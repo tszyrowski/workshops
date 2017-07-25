@@ -22,5 +22,7 @@ def dec_to_deg_min_sec(deg):
 
 if __name__=="__main__":
 
+    print(dec_to_deg_min_sec(50.084522))
+
     import doctest
     doctest.testmod()
