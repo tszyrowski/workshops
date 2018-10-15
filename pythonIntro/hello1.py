@@ -1,7 +1,7 @@
 '''
 @author: T
 '''
-from Tkinter import *   # works for Python 2.7
+#from Tkinter import *   # works for Python 2.7
 from tkinter import *   # works for Python 3.x
 
 root = Tk()             # main application
